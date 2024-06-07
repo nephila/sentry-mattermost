@@ -25,7 +25,7 @@ from sentry import tagstore
 from sentry.plugins.bases import notify
 from sentry_plugins.base import CorePluginMixin
 from sentry.utils import json
-from sentry.integrations import FeatureDescription, IntegrationFeatures
+from sentry.integrations.base import FeatureDescription, IntegrationFeatures
 from string import Formatter
 
 logger = logging.getLogger("sentry.integrations.sentry_mattermost.plugin")
